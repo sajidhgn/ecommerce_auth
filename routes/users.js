@@ -7,7 +7,7 @@ console.log('user route==>',router)
 
 router.post('/register', registerUser);
 router.post('/login', loginUser);
-// router.get('/current',validateToken,currentUser);
+router.get('/current',validateToken,currentUser);
 // router.get('/logout',logoutUser);
 
 module.exports = router;
